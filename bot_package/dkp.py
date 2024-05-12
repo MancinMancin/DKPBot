@@ -287,7 +287,7 @@ class dekape(commands.Cog):
             await ctx.send("Member doesn't exist in the database")
 
     @commands.command()
-    async def raid(self, ctx: commands.Context, log_link: str = None, quantity: float = 0, *note: str):
+    async def logi(self, ctx: commands.Context, log_link: str = None, quantity: float = 0, *note: str):
         if not ctx.author.guild_permissions.administrator:
             await ctx.send("You don't have permissions to do that.")
             return

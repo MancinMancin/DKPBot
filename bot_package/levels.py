@@ -45,7 +45,7 @@ class levels(commands.Cog):
                     "/dodaj <user ping> <character nick> <character class>": ("Adds the user to the database.", False),
                     "/dej <user ping or role ping or character nick> <quantity> <note (optional)>": ("Awards pinged user or every user with pinged role the given amount of DKP", False),
                     "/zabierz <user ping or role ping or character nick> <quantity> <note (optional)>": ("Subtracts pinged user or every user with pinged role the given amount of DKP", False),
-                    "/raid <log link> <quantity> <note (optional)>": ("Awards users killing the bosses with given DKP per boss kill", False),
+                    "/logi <log link> <quantity> <note (optional)>": ("Awards users killing the bosses with given DKP per boss kill", False),
                     "/change <user ping or character nick> <\"character\" or \"class\"> <new character nick or new class>": ("", False)
                 }
         else:
